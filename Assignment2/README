@@ -1,0 +1,20 @@
+# FastAPI Assignment 2
+
+## Description
+This assignment demonstrates the use of FastAPI to create simple APIs for handling product data.
+
+## Features
+- Create API endpoints using FastAPI
+- Perform operations like filtering and querying data
+- Use query parameters and validation
+
+## Files
+- main.py : Contains the FastAPI application code
+- screenshots : Contains output screenshots of the API responses
+
+## How to Run
+1. Install FastAPI and Uvicorn
+2. Run the command:
+   uvicorn main:app --reload
+3. Open browser and go to:
+   http://127.0.0.1:8000/docs
