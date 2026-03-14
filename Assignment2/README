@@ -1,20 +1,65 @@
 # FastAPI Assignment 2
 
+## Project Title
+
+Product API using FastAPI
+
 ## Description
-This assignment demonstrates the use of FastAPI to create simple APIs for handling product data.
+
+This project demonstrates the use of FastAPI to build a simple REST API for managing product data.
+The API allows users to retrieve product information and filter products using query parameters.
+
+## Technologies Used
+
+* Python
+* FastAPI
+* Pydantic
+* Uvicorn
+
+## Project Structure
+
+Assignment2/
+│
+├── main.py
+│   ├── output1.png
+│   ├── output2.png
+│
+└── README.md
 
 ## Features
-- Create API endpoints using FastAPI
-- Perform operations like filtering and querying data
-- Use query parameters and validation
 
-## Files
-- main.py : Contains the FastAPI application code
-- screenshots : Contains output screenshots of the API responses
+* Create API endpoints using FastAPI
+* Retrieve product data
+* Filter products using query parameters
+* Automatic API documentation using Swagger UI
 
-## How to Run
-1. Install FastAPI and Uvicorn
-2. Run the command:
-   uvicorn main:app --reload
-3. Open browser and go to:
-   http://127.0.0.1:8000/docs
+## How to Run the Project
+
+1. Install required libraries
+
+```
+pip install fastapi uvicorn
+```
+
+2. Run the FastAPI server
+
+```
+uvicorn main:app --reload
+```
+
+3. Open the browser and go to:
+
+```
+http://127.0.0.1:8000/docs
+```
+
+This will open the Swagger UI where you can test the API endpoints.
+
+## Output
+
+The screenshots contains the output  of the API responses.
+
+## Author
+
+Mayuri Rathod
+
