@@ -1,12 +1,12 @@
-# 🛒 FastAPI E-commerce API — Assignment 5 (Day 6)
+#  FastAPI E-commerce API — Assignment 5 (Day 6)
 
-## 📌 Overview
+##  Overview
 
 This project is built using **FastAPI** and demonstrates three essential API features used in real-world applications:
 
-* 🔍 Search
-* ↕️ Sorting
-* 📄 Pagination
+*  Search
+*  Sorting
+*  Pagination
 
 Additionally, advanced endpoints combine all these features into a single API.
 
@@ -21,7 +21,7 @@ Additionally, advanced endpoints combine all these features into a single API.
 
 ---
 
-## 🚀 How to Run the Project
+##  How to Run the Project
 
 1. Install dependencies:
 
@@ -43,9 +43,9 @@ http://127.0.0.1:8000/docs
 
 ---
 
-## 📦 Available Endpoints
+##  Available Endpoints
 
-### 🔍 Search
+###  Search
 
 * `GET /products/search?keyword=...`
   Search products by name (case-insensitive)
@@ -55,7 +55,7 @@ http://127.0.0.1:8000/docs
 
 ---
 
-### ↕️ Sorting
+###  Sorting
 
 * `GET /products/sort?sort_by=price&order=asc`
   Sort products by:
@@ -64,19 +64,19 @@ http://127.0.0.1:8000/docs
 
 ---
 
-### 📄 Pagination
+###  Pagination
 
 * `GET /products/page?page=1&limit=2`
   Paginate products list
 
-* `GET /orders/page?page=1&limit=3` ⭐ (Bonus)
+* `GET /orders/page?page=1&limit=3`  (Bonus)
   Paginate orders list
 
 ---
 
-### 📊 Advanced Features
+###  Advanced Features
 
-#### 🔹 Sort by Category
+####  Sort by Category
 
 * `GET /products/sort-by-category`
   Sorts products by:
@@ -86,7 +86,7 @@ http://127.0.0.1:8000/docs
 
 ---
 
-#### 🔹 Combined API (Search + Sort + Pagination)
+####  Combined API (Search + Sort + Pagination)
 
 * `GET /products/browse`
 
@@ -100,7 +100,7 @@ Supports:
 
 ---
 
-## 🧪 Example Test Cases
+##  Example Test Cases
 
 ### Search
 
@@ -126,7 +126,7 @@ Supports:
 
 ---
 
-## 🧠 Key Concepts Learned
+##  Key Concepts Learned
 
 * Query parameters in FastAPI
 * Data filtering using list comprehension
@@ -136,14 +136,14 @@ Supports:
 
 ---
 
-## ⚠️ Important Notes
+##  Important Notes
 
 * Orders are stored in memory → reset on server restart
 * Must create orders using `POST /orders` before testing search or pagination on orders
 
 ---
 
-## 🎯 Conclusion
+##  Conclusion
 
 This assignment demonstrates how real-world APIs handle large datasets efficiently using search, sorting, and pagination. The combined endpoint simulates how modern e-commerce platforms work.
 
